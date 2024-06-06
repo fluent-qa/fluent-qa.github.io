@@ -1,0 +1,40 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[main]]
+name = "博客"
+url = "post/"
+weight = 2
+
+[[main]]
+name = "系列"
+url = "categories/"
+weight = 3
+
+
+[[main]]
+name = "教程"
+url = "tags/"
+weight = 4
+
+
+# footer menu
+[[footer]]
+name = "博客"
+url = "post/"
+weight = 1
+
+[[footer]]
+name = "使用示例"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "联系"
+url = "contact/"
+weight = 3
