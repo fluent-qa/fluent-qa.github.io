@@ -11,14 +11,15 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Hugoplate"
+logo_text = "Revisted:SoftwareQA"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
 theme_switcher = true
-theme_default = "system" # available options [light/dark/system]
+theme_default = "light" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+# mainSections = ["blog"]
+mainSections = ["post"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -27,7 +28,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "Designed & Developed by [Fluent-QA](https://github.com/fluent-qa)"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -38,15 +39,15 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "get a quote"
-link = "contact"
+label = "联系"
+link = "/contact/"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["post"]
 show_image = true
 show_description = true
 show_tags = true
@@ -62,9 +63,27 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = [
+    "AI",
+    "AI-IN-Testing",
+    "PYTHON QA",
+    "JAVA QA",
+    "GOLANG QA",
+    "Typescript QA",
+    "Software QA",
+    "Revisited Software QA",
+    "Auatomation",
+    "RPA",
+    "DEVOPS",
+    "TESTOPS",
+    "CI/CD",
+    "UI Automation",
+    "Testing Platform",
+    "AI in Testing Process",
+    "Low Code Development",
+]
+description = "Revisited Software QA in AI Age"
+author = "Fluent-QA"
 image = "images/og-image.png"
 
 

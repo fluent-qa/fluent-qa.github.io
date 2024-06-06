@@ -9,21 +9,21 @@ weight = 1
 [[main]]
 name = "About"
 pageRef = "/about"
-weight = 2
+weight = 10
 
-[[main]]
-name = "Elements"
-pageRef = "/elements"
-weight = 3
+# [[main]]
+# name = "Elements"
+# pageRef = "/elements"
+# weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "Tutorials"
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-pageRef = "/blog"
+parent = "Tutorials"
+name = "Python"
+pageRef = "/Python"
 
 [[main]]
 parent = "Pages"
