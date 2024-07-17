@@ -1,0 +1,79 @@
+---
+title: Create Layout in Nextjs Project
+slug: Nextjs Laytout
+summary: Create Layout in Nextjs Project
+date: '2024-06-29T00:00:00Z'
+draft: false
+authors:
+  - admin
+tags:
+  - nextjs
+  - tutorials
+categories:
+  - nextjs-tutorials
+---
+
+作为一名新手前端工程师，你可以使用 `shadcn` 的 `ui` 库来在已创建的项目中创建布局页面。
+
+首先，安装 `shadcn`：
+
+```bash
+npm install @shadcn/ui
+```
+
+然后，创建一个新的布局页面文件，例如 `pages/_app.tsx`，并在其中使用 `shadcn` 的组件来构建布局：
+
+```typescript
+import { Metadata } from 'next';
+import { cn } from '@/lib/utils';
+import { siteConfig } from '@/config';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+};
+
+const theme = createTheme({
+  palette: {
+    mode: 'light',
+    primary: {
+      main: '#1976D2',
+    },
+    secondary: {
+      main: '#FFC107',
+    },
+    error: {
+      main: '#F44336',
+    },
+  },
+});
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={cn('min-h-screen bg-gray-50')}>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}
+```
+
+在这个例子中，我们使用 `shadcn` 的 `cn` 工具来合并类名，并使用 `@mui/material` 的 `ThemeProvider` 来应用全局样式。
+
+然后，你可以使用 `shadcn` 的其他组件来构建页面的其他部分，例如导航栏、页脚等。
+
+最后，你可以根据自己的需求来定制布局页面，例如添加自定义的 CSS 样式、使用其他的 `shadcn` 组件等等。

@@ -22,17 +22,17 @@ categories:
    Bun 是一款快速且强大的 JavaScript 运行时，可以用来创建 Next.js 项目。首先，使用 Bun 的 `bunx` 命令创建一个新的 Next.js 项目：
 
    ```bash
-   bunx create-next-app@latest my-nextjs-app --ts
+   bunx --bun create-next-app@latest my-app --typescript --tailwind --eslint
    ```
 
    这将使用 Bun 创建一个名为 `my-nextjs-app` 的新 Next.js 项目，并使用 TypeScript 作为语言。
 
-2. **安装 TailwindCSS**
+2. **安装 shadcn-ui**
 
    接下来，安装 TailwindCSS 和它的依赖：
 
    ```bash
-   bunx add tailwindcss postcss autoprefixer
+   bunx --bun shadcn-ui@latest init
    ```
 
 3. **配置 TailwindCSS**
@@ -112,4 +112,4 @@ categories:
 
    Bun 将会自动检测代码更改并重新加载页面。
 
-现在，你已经成功地使用 Bun、TailwindCSS 和 TypeScript 创建了一个 Next.js 项目，并可以开始开发你的应用程序了。[5](https://tailwindcss.com/docs/guides/nextjs)[6](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
+现在，已经成功地使用 Bun、TailwindCSS 和 TypeScript 创建了一个 Next.js 项目，并可以开始开发你的应用程序了。[5](https://tailwindcss.com/docs/guides/nextjs)[6](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
