@@ -1,10 +1,10 @@
 ---
 # Banner
 banner:
-  title: "AI时代重访软件测试"
-  content: "关注低代码、AI,用新方式软件测试"
+  title: "极简重学软件测试"
+  content: "Simplify and Revisited Software QA in AI Age "
   # image: "/images/banner.png"
-  image: "/images/expert.png"
+  image: "/images/qa-solutions.webp"
   button:
     enable: true
     label: "联系我"
@@ -12,22 +12,22 @@ banner:
 
 # Features
 features:
-  - title: "用开源软件,低代码AI赋能测试开发"
-    image: "/images/feature-2.png"
-    content: "低代码是指通过可视化的拖拽和配置的方式，结合少量代码或者不写代码，来完成应用功能的开发。"
+  - title: "快速入门软件测试开发之道"
+    image: "/images/service-1.png"
+    content: "每天10-30分钟,快速掌握测试开发技能"
     bulletpoints:
-      - "**提升开发效率**：通过可视化的开发环境和预置的组件库，使开发人员能够快速地构建应用程序。"
-      - "**降低开发门槛**：直观的可视化界面和简化的开发过程，不具备专业编程技能的人员也能参与应用程序的开发。"
-      - "**敏捷应对业务**：开发效率的提升，从而可以快速响应业务需求的变化，做出更多的产品，快速创新和试错。"
-      - "**简化协作**：不同角色的开发人员和业务人员可以在同一个平台上协同工作，提高团队的协作效率和沟通效果。"
+      - "**提升入门效率**：直击问题和目的的方式入门测试开发。"
+      - "**降低开发门槛**：无废话介绍使用测试开发工具。"
+      - "**实践检验**：实践和比较是检验理念的方法"
+      - "**持续优化**：往往高估了短期的效果而低估了长期演化,所以持续优化"
 
     button:
       enable: false
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      link: "#"
 
-  - title: "快捷测试组织技术栈构建之道"
-    image: "/images/feature-1.png"
+  - title: "最新全面测试开发教程"
+    image: "/images/service-2.png"
     content: "测试组织技术构建之道: 实用,低成本,灵活并贴近实际流程"
     bulletpoints:
           - 用开源工具打通质量反馈流程
