@@ -25,7 +25,7 @@ weight = 4
 [[main]]
 name = "30分钟Python-PDM"
 parent = "系列"
-url = "tags/Pdm"
+url = "tags/pdm"
 weight = 4
 
 # footer menu
