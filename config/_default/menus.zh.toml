@@ -21,6 +21,13 @@ name = "教程"
 url = "tags/"
 weight = 4
 
+
+[[main]]
+name = "30分钟Python-PDM"
+parent = "系列"
+url = "tags/Pdm"
+weight = 4
+
 # footer menu
 [[footer]]
 name = "博客"
