@@ -1,11 +1,12 @@
 ---
-title: PDM创建项目-9
-slug: Python PDM创建项目
-description: Python PDM创建项目
-meta_title: "Python PDM创建项目"
-date: '2024-07-20T00:00:00Z'
-tags: [30min,30min-python]
-categories: [tutorials,30min,30min-python]
+title: "PDM CheatSheet"
+slug: "PDM CheatSheet"
+description: "PDM CheatSheet"
+meta_title: "PDM CheatSheet"
+date: 2024-07-19T11:34:43+08:00
+tags: ["30min","30min-python","pdm"]
+categories: ["tutorials","30min","30min-python","pdm"]
+draft: false
 ---
 
 ## PDM setup

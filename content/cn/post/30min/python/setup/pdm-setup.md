@@ -1,19 +1,16 @@
 ---
-title: PDM创建项目-1
+title: "PDM创建Python项目"
 slug: Python PDM创建项目
 description: Python PDM创建项目
 meta_title: "Python PDM创建项目"
-date: '2024-07-20T00:00:00Z'
-tags: [30min,30min-python]
-categories: [tutorials,30min,30min-python]
+date: 2024-07-19T11:34:43+08:00
+tags: ["30min","30min-python","pdm"]
+categories: ["tutorials","30min","30min-python","pdm"]
+draft: false
 ---
 
+
 # PDM创建项目
-```
----
-prompts: PDM项目的文档地址为： https://pdm-project.org/latest/,请为一个初学Python的人总结：PDM如何创建项目，包含创建新项目和在已有项目中使用
----
-```
 
 PDM（Python Dependency Manager）是一个现代的Python包和依赖管理工具，支持最新的PEP标准。以下是如何使用PDM创建新项目和在已有项目中使用的简要指南：
 

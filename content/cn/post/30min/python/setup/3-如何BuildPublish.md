@@ -1,22 +1,18 @@
---
-title: PDM构建和发布项目
-slug: Python PDM创建项目
-description: Python PDM创建项目
-meta_title: "Python PDM创建项目"
-date: '2024-07-20T00:00:00Z'
-tags: ["30min","30min-python"]
-categories: ["tutorials","30min","30min-python"]
+---
+title: "PDM建和发布项目"
+slug: "PDM建和发布项目"
+description: "PDM建和发布项目"
+meta_title: "PDM建和发布项目"
+date: 2024-07-19T11:34:43+08:00
+tags: ["30min","30min-python","pdm"]
+categories: ["tutorials","30min","30min-python","pdm"]
+draft: false
 ---
 
-```
----
-prompt: 文档地址为https://pdm-project.org/latest/,请为一个初学者总结,PDM如何Build和Publish,并用markdown 返回
----
-```
 
-PDM（Python Dependency Manager）是一个现代的Python包和依赖管理工具。以下是如何使用PDM构建和发布项目的简要指南。
 
-## 构建和发布项目
+## 建和发布项目
+
 
 ### 构建项目
 
