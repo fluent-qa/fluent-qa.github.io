@@ -14,4 +14,10 @@ export default defineConfig({
             '@': path.resolve(__dirname, 'src'),
         },
     },
+    build: {
+        rollupOptions: {
+
+            // https://rollupjs.org/configuration-options/
+        },
+    },
 });
