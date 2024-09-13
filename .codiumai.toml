@@ -1,0 +1,27 @@
+# .codiumai.toml
+
+[test]
+# Specify the test framework you're using
+framework = "vitest"
+
+# Command to run the tests
+test_command = "npm run test"
+
+# Directories where your source code is located
+code_path = ["src"]
+
+# Directories where your test files are located
+test_path = ["tests"]
+
+# File patterns for test files
+test_file_pattern = "**/*.test.ts"
+
+# File patterns to ignore
+ignore_pattern = ["**/node_modules/**", "**/.next/**"]
+
+# Specify the Node.js version (optional, but recommended)
+# node_version = "18"
+
+[test.vitest]
+# Vitest specific configurations
+config_file = "vitest.config.ts"
