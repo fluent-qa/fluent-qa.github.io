@@ -1,6 +1,11 @@
 ---
 theme: eloc
 layout: full
+class: text-left
+colorSchema: dark
+info: |
+  ## Personal tools
+  Presentation for Personal QA Tools used and built.
 categories:
   - efficiency
   - 测试提效篇 
@@ -9,9 +14,11 @@ description: 测试提效工具篇
 date: 2024-09-10
 ---
 
-## 个人日常提效工具
+
+# 个人日常提效工具
 
 小公司测试,测试开发比1:6,日常用的提效工具:
+
 - 命令行工具
 - 开发/编辑工具
 - 文档工具
